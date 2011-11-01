@@ -1,0 +1,47 @@
+1 Kalkulator
+Napisz program przypominajacy kalkulator. Program powinien wyswietlac menu w ponizszej
+postaci:
+Dodaj 1
+Pomnóz 2
+Odejmij 3
+Podziel 4
+Wyjdz 5
+Po uruchomieniu powinno sie wyswietlic menu a nastepnie po wyborze jednej z opcji (domyslnie
+5) nalezy odpowiednio wczytac dwie liczby, wyswietlic wynik i ponownie wyswietlic
+menu, badz zakonczyc działanie programu (w zaleznosci od wybranej opcji).
+$ ./calc
+Menu:
+Dodaj 1
+Pomnoz 2
+Odejmij 3
+Podziel 4
+Wyjdz 5
+Wybierz (1-5)[5]: 1
+Podaj pierwsza liczbe x: 23
+Podaj druga liczbe y: 4.5
+Wynik: 27.5
+Menu:
+Dodaj 1
+...
+
+
+
+2 Ekonomia
+Sprawdzmy kiedy Chinczycy beda bogatsi od Amerykanów . . .PKB na jednego mieszkanca
+wynosi odpowiednio (na rok 2010):
+USA $46 000,
+1
+Chiny $3 920,
+natomiast jego przyrost wynosi odpowiednio:
+USA +2.5%,
+Chiny +9%,
+Zakładajac powyzszy trend, kiedy Chinczycy osiagna wyzsze dochody anizeli Amerykanie?
+Wyswietl liste dla 2015, 2020, 2025 az do momentu uzyskania przewagi przez Chiny.
+$ ./economy
+Year USA China
+2010 $46 000 $3 920
+2015 $52 045 $6 031
+2020 $58 883 $9 280
+...
+Chinczycy beda bogatsi od Amerykanów juz w 2051 roku.
+2
